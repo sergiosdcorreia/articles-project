@@ -1,0 +1,44 @@
+.article {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.article__title {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.article__description {
+    font-family: Roboto, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.article__image {
+    margin-top: 1rem;
+    max-width: 100%;
+}
+
+.article__body {
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+.article__link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,129,192,1) 0%, rgba(17,165,196,1) 100%);
+    white-space: nowrap;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 48em) {
+    .article {
+        width: 70%;
+    }
+}
